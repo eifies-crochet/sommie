@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+
+#full-pattern {
+  width: 80%;
+  min-width: 800px;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+#full-pattern .img-container {
+  width: 50%;
+  margin: 1em auto;
+}
+
+#full-pattern .img-container > img {
+  width: 100%;
+}
+
+#full-pattern .img-multi-container {
+  margin: 1em auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1em;
+  align-items: center;
+}
+
+#full-pattern .img-multi-container > img {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+}
+
+#full-pattern header {
+  text-align: center;
+}
+
+#full-pattern header .subheader {
+  margin-bottom: 0.5em;
+}
+
+#full-pattern address {
+  font-style: unset;
+  text-align: start;
+}
+
+#full-pattern ol {
+  list-style-type: decimal;
+}
+
+#full-pattern ol > li > ol {
+  list-style-type: lower-alpha;
+}
