@@ -60,7 +60,7 @@ body {
   }
 }
 
-#full-pattern header {
+#full-pattern header h1, #full-pattern header .subheader {
   text-align: center;
 }
 
