@@ -31,7 +31,8 @@ body {
 
 /* Default: for smaller screens */
 #full-pattern {
-  width: 100%;
+  width: 90%;
+  margin: 0px auto;
 }
 
 @media (min-width: 1000px) {
@@ -39,7 +40,6 @@ body {
     width: 80%;
     min-width: 800px;
     max-width: 1200px;
-    margin: 0px auto;
   }
 
   #full-pattern .img-container {
