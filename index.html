@@ -2,22 +2,36 @@
 <html lang="en">
   <head>
     <title>Sommie crochet pattern</title>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-    <link rel="stylesheet" href="style.css" />
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="stylesheet" href="style.css">
+    <script src="size-toggle.js"></script>
   </head>
 
-  <body>
+  <body class="larger-text" onload="setLargerText()">
     <article id="full-pattern">
+      <p id="size-toggle-container">
+        <span id="size-toggle-label">Use large text</span>
+        <button
+          id="size-toggle"
+          type="button"
+          role="switch"
+          aria-labelledby="size-toggle-label"
+          aria-checked="true"
+          onclick="toggleLargerText()"
+        >
+          <span>on</span>
+          <span>off</span>
+        </button>
+      </p>
       <header>
         <h1>Sommie!</h1>
         <p class="subheader">A crochet pattern by Eifie!</p>
-
         <div class="img-container">
           <img
             alt="Crocheted Sommie in aromantic flag colours: green face mask and tail, black paws, and gray scarf."
             src="img/image6.jpeg"
             style="aspect-ratio: 640 / 514"
-          />
+          >
         </div>
 
         <h2 id="header-contact">Contact</h2>
@@ -285,7 +299,7 @@
               alt="Completed Sommie head sitting so it is facing the viewer"
               src="img/image37.jpeg"
               style="aspect-ratio: 531 / 483"
-            />
+            >
           </div>
 
           <p>
@@ -519,7 +533,7 @@
                   alt="Close-up of the mouth embroidery on Sommie&#39;s head"
                   src="img/image29.jpeg"
                   style="aspect-ratio: 637 / 640"
-                />
+                >
               </div>
             </li>
 
@@ -581,7 +595,7 @@
               alt="Completed Sommie head as seen from above"
               src="img/image19.jpeg"
               style="aspect-ratio: 595 / 506"
-            />
+            >
           </div>
 
           <div class="img-multi-container">
@@ -589,12 +603,12 @@
               alt="Completed Sommie head as seen from the left side"
               src="img/image38.jpeg"
               style="aspect-ratio: 497 / 457"
-            />
+            >
             <img
               alt="Completed Sommie head as seen from the right side"
               src="img/image12.jpeg"
               style="aspect-ratio: 507 / 452"
-            />
+            >
           </div>
 
           <div class="img-container">
@@ -602,7 +616,7 @@
               alt="Completed Sommie head as seen from behind. There is a seam along the center of the back of the head."
               src="img/image14.jpeg"
               style="aspect-ratio: 532 / 480"
-            />
+            >
           </div>
         </section>
 
@@ -614,7 +628,7 @@
               alt="Two completed Sommie ears laid next to each other"
               src="img/image10.jpeg"
               style="aspect-ratio: 348 / 270"
-            />
+            >
           </div>
 
           <p id="pattern-ears-description">
@@ -653,7 +667,7 @@
               alt="Completed Sommie body, viewed from the front on a diagonal. The body is stuffed."
               src="img/image32.jpeg"
               style="aspect-ratio: 640 / 624"
-            />
+            >
           </div>
 
           <p id="pattern-body-description">Worked from back to front in a continuous spiral, using the body colour.</p>
@@ -771,12 +785,12 @@
                   alt="Sommie body after finishing round 24. It is a simple half-open cylinder shape and not yet stuffed."
                   src="img/image16.jpeg"
                   style="aspect-ratio: 640 / 536"
-                />
+                >
                 <img
                   alt="Sommie body after finishing round 24 and stuffing the body"
                   src="img/image15.jpeg"
                   style="aspect-ratio: 640 / 580"
-                />
+                >
               </div>
 
               <p>
@@ -838,7 +852,7 @@
                   alt="Sommie&#39;s body after row 35. Stitch markers are placed in the first stitch of each short row."
                   src="img/image25.jpeg"
                   style="aspect-ratio: 640 / 583"
-                />
+                >
               </div>
 
               <p>
@@ -885,12 +899,12 @@
               alt="Completed Sommie body as viewed from the front"
               src="img/image7.jpeg"
               style="aspect-ratio: 621 / 640"
-            />
+            >
             <img
               alt="Completed Sommie body as viewed from the right side"
               src="img/image24.jpeg"
               style="aspect-ratio: 640 / 493"
-            />
+            >
           </div>
         </section>
 
@@ -902,7 +916,7 @@
               alt="Completed Sommie tail laid flat and viewed from above"
               src="img/image2.jpeg"
               style="aspect-ratio: 640 / 527"
-            />
+            >
           </div>
 
           <p id="pattern-tail-description">
@@ -1025,7 +1039,7 @@
               alt="Sommie&#39;s tail. The tail spikes are spread out from each other and only attached near the base."
               src="img/image8.jpeg"
               style="aspect-ratio: 640 / 447"
-            />
+            >
           </div>
 
           <p>
@@ -1051,12 +1065,12 @@
               alt="Completed Sommie leg viewed from the front"
               src="img/image30.jpeg"
               style="aspect-ratio: 600 / 657"
-            />
+            >
             <img
               alt="Completed Sommie leg viewed from the side where it attaches to the body"
               src="img/image5.jpeg"
               style="aspect-ratio: 584 / 640"
-            />
+            >
           </div>
 
           <p id="pattern-legs-description">
@@ -1129,7 +1143,7 @@
                   alt="The wire after step 2. The wire is held against Sommie&#39;s paw to measure the size of the circle."
                   src="img/image28.jpeg"
                   style="aspect-ratio: 640 / 512"
-                />
+                >
               </div>
             </li>
 
@@ -1137,7 +1151,7 @@
               Twist one end of the wire around the other where they connect to secure the shape.
 
               <div class="img-container">
-                <img alt="The wire after step 3" src="img/image27.jpeg" style="aspect-ratio: 630 / 640" />
+                <img alt="The wire after step 3" src="img/image27.jpeg" style="aspect-ratio: 630 / 640" >
               </div>
             </li>
 
@@ -1145,7 +1159,7 @@
               Wrap a bit of masking tape around the protruding edge of the wire you twisted, to cover it.
 
               <div class="img-container">
-                <img alt="The wire after step 4" src="img/image36.jpeg" style="aspect-ratio: 1 / 1" />
+                <img alt="The wire after step 4" src="img/image36.jpeg" style="aspect-ratio: 1 / 1" >
               </div>
             </li>
 
@@ -1168,7 +1182,7 @@
                   alt="Sommie&#39;s leg with the wire placed inside it"
                   src="img/image26.jpeg"
                   style="aspect-ratio: 602 / 640"
-                />
+                >
               </div>
             </li>
           </ol>
@@ -1191,7 +1205,7 @@
                   alt="Sommie&#39;s head viewed from above, with the ears pinned into place"
                   src="img/image1.jpeg"
                   style="aspect-ratio: 640 / 586"
-                />
+                >
               </div>
 
               <div class="img-multi-container">
@@ -1199,12 +1213,12 @@
                   alt="Sommie&#39;s head with both ears sewn on as viewed from the front"
                   src="img/image17.jpeg"
                   style="aspect-ratio: 484 / 490"
-                />
+                >
                 <img
                   alt="Sommie&#39;s head with both ears sewn on as viewed from the left side"
                   src="img/image11.jpeg"
                   style="aspect-ratio: 515 / 495"
-                />
+                >
               </div>
             </li>
 
@@ -1218,7 +1232,7 @@
                   alt="Sommie&#39;s body as viewed from the left side with the head pinned on"
                   src="img/image22.jpeg"
                   style="aspect-ratio: 640 / 492"
-                />
+                >
               </div>
 
               <div class="img-multi-container">
@@ -1226,12 +1240,12 @@
                   alt="Sommie&#39;s body with the head completely sewn on as viewed from the front"
                   src="img/image35.jpeg"
                   style="aspect-ratio: 600 / 749"
-                />
+                >
                 <img
                   alt="Sommie&#39;s body with the head completely sewn on as viewed from the right side"
                   src="img/image33.jpeg"
                   style="aspect-ratio: 640 / 612"
-                />
+                >
               </div>
             </li>
 
@@ -1244,7 +1258,7 @@
                   alt="Sommie&#39;s body as viewed from the back, with the tail pinned on near the top"
                   src="img/image13.jpeg"
                   style="aspect-ratio: 623 / 640"
-                />
+                >
               </div>
 
               <div class="img-container">
@@ -1252,7 +1266,7 @@
                   alt="Sommie&#39;s body as viewed from the left side with the tail completely sewn on"
                   src="img/image21.jpeg"
                   style="aspect-ratio: 640 / 476"
-                />
+                >
               </div>
             </li>
 
@@ -1266,12 +1280,12 @@
                   alt="Sommie as viewed from the front, with the legs pinned on"
                   src="img/image9.jpeg"
                   style="aspect-ratio: 600 / 691"
-                />
+                >
                 <img
                   alt="Sommie as viewed from behind, with the legs pinned on"
                   src="img/image18.jpeg"
                   style="aspect-ratio: 600 / 717"
-                />
+                >
               </div>
 
               <div class="img-multi-container">
@@ -1279,12 +1293,12 @@
                   alt="Sommie as viewed from the left side, with the legs pinned on"
                   src="img/image4.jpeg"
                   style="aspect-ratio: 640 / 461"
-                />
+                >
                 <img
                   alt="Sommie as viewed from the front-right diagonal, with the legs fully sewn on"
                   src=" img/image31.jpeg"
                   style="aspect-ratio: 640 / 558"
-                />
+                >
               </div>
 
               <div class="img-container">
@@ -1292,7 +1306,7 @@
                   alt="Sommie on its side with the bottom of its body and paws facing the viewer. The legs are sewn on."
                   src="img/image3.jpeg"
                   style="aspect-ratio: 640 / 453"
-                />
+                >
               </div>
             </li>
           </ol>
@@ -1306,7 +1320,7 @@
               alt="Sommie, all sewn together, standing proudly behind its finished scarf"
               src="img/image23.jpeg"
               style="aspect-ratio: 640 / 385"
-            />
+            >
           </div>
 
           <p id="pattern-scarf-description">
@@ -1418,7 +1432,7 @@
           <p>Now all you have to do is tie the scarf around Sommie's neck!</p>
 
           <div class="img-container">
-            <img alt="Completed Sommie viewed from the front" src="img/image20.jpeg" style="aspect-ratio: 640 / 597" />
+            <img alt="Completed Sommie viewed from the front" src="img/image20.jpeg" style="aspect-ratio: 640 / 597" >
           </div>
 
           <div class="img-container">
@@ -1426,7 +1440,7 @@
               alt="Completed Sommie viewed from the front-left diagonal."
               src="img/image34.jpeg"
               style="aspect-ratio: 640 / 618"
-            />
+            >
           </div>
 
           <div class="img-container">
@@ -1434,7 +1448,7 @@
               alt="Completed Sommie lying contentedly on its back, tail laid flat and legs splayed out to the sides."
               src="img/image39.jpeg"
               style="aspect-ratio: 640 / 474"
-            />
+            >
           </div>
 
           <p>Congratulations! You have made your very own Sommie!</p>

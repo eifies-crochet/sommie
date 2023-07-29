@@ -2,6 +2,33 @@ body {
   font-family: sans-serif;
 }
 
+.larger-text {
+  font-size: 24pt;
+}
+
+#size-toggle-container {
+  font-size: 24pt;
+}
+
+#size-toggle {
+  font-size: 1em;
+  border: 8px solid black;
+  border-radius: 0.5em;
+  padding: 0.5em 0.25em;
+  margin: 0 0.5em;
+}
+
+#size-toggle > span {
+  padding: 0.25em 0.5em;
+  border-radius: 0.5em;
+}
+
+#size-toggle[aria-checked="true"] :first-child,
+#size-toggle[aria-checked="false"] :last-child {
+  background-color: black;
+  color: white;
+}
+
 /* Default: for smaller screens */
 #full-pattern {
   width: 100%;
@@ -60,7 +87,8 @@ body {
   }
 }
 
-#full-pattern header h1, #full-pattern header .subheader {
+#full-pattern header h1,
+#full-pattern header .subheader {
   text-align: center;
 }
 
